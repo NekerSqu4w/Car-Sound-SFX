@@ -1,6 +1,6 @@
 {
     "Car": "Nissan GTR",
-    "SoundPath": "Nissan GTR/",
+    "SoundPath": "Car/Nissan GTR/",
     "Soundlist": {
         "DoorClose": "door_close.wav",
         "DoorOpen": "door_open.wav",
@@ -26,25 +26,12 @@
             "Mono": "skid_ext_mono.wav"
         },
         "EngineSound": [
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0},
-            {"path": "", "rpm": 0}
+            {"ext": "ext_idle1036.wav", "rpm": 1036},
+            {"ext": "mid_2772b.wav", "rpm": 2772},
+            {"ext": "3660a.wav", "rpm": 3660},
+            {"ext": "5167a.wav", "rpm": 5167},
+            {"ext": "5813a.wav", "rpm": 5812},
+            {"ext": "7213c.wav", "rpm": 7213}
         ]
     }
 }
