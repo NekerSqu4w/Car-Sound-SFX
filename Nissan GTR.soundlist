@@ -1,0 +1,50 @@
+{
+    "Car": "Nissan GTR",
+    "SoundPath": "Nissan GTR/",
+    "Soundlist": {
+        "DoorClose": "door_close.wav",
+        "DoorOpen": "door_open.wav",
+        "BodyWork": "bodywork.wav",
+        "Horn": "horn.wav",
+        "GearUp": "gear2_up.wav",
+        "TractionControl": "traction_control.wav",
+        "Turbo": {
+            "Charge": "turbo.wav",
+            "Release": "F40_LM_pop_off_3.wav"
+        },
+        "Tires": {
+            "Explosion": "tyre_explosion.wav",
+            "Rolling": "tyre_rolling.wav",
+            "Flat": "flat_tyre_mono.wav"
+        },
+        "Wind": {
+            "Normal": "wind.wav",
+            "Draft": "wind_draft_mono.wav"
+        },
+        "Skid": {
+            "Normal": "Skid.wav",
+            "Mono": "skid_ext_mono.wav"
+        },
+        "EngineSound": [
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0},
+            {"path": "", "rpm": 0}
+        ]
+    }
+}
