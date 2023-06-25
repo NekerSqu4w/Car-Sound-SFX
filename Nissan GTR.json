@@ -10,7 +10,7 @@
         "TractionControl": "traction_control.wav",
         "Turbo": {
             "Charge": "turbo.wav",
-            "Release": "F40_LM_pop_off_3.wav"
+            "Wastegate": "F40_LM_pop_off_3.wav"
         },
         "Tires": {
             "Explosion": "tyre_explosion.wav",
@@ -26,12 +26,13 @@
             "Mono": "skid_ext_mono.wav"
         },
         "EngineSound": [
-            {"ext": "ext_idle1036.wav", "rpm": 1036},
-            {"ext": "mid_2772b.wav", "rpm": 2772},
-            {"ext": "3660a.wav", "rpm": 3660},
-            {"ext": "5167a.wav", "rpm": 5167},
-            {"ext": "5813a.wav", "rpm": 5812},
-            {"ext": "7213c.wav", "rpm": 7213}
+            {"type": "idle", "ext": "ext_idle1036.wav", "rpm": 1036},
+            {"type": "mid","ext": "mid_2772b.wav", "rpm": 2772},
+            {"type": "mid","ext": "3660a.wav", "off": "4172c_off.wav", "rpm": 3660},
+            {"type": "mid","ext": "5167a.wav", "off": "ext_4925off.wav", "rpm": 5167},
+            {"type": "mid","ext": "5813a.wav", "off": "6402c_off.wav", "rpm": 5812},
+            {"type": "max","ext": "7213c.wav", "off": "7104a_off.wav", "rpm": 7213},
+            {"type": "limiter", "ext": "limiter.wav"}
         ]
     }
 }
