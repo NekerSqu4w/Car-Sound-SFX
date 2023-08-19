@@ -26,12 +26,12 @@
             "Mono": "skid_ext_mono.wav"
         },
         "EngineSound": [
-            {"type": "idle", "ext": "ext_idle1036.wav", "rpm": 1036, "minPitch": 1, "maxPitch": 1},
-            {"type": "mid","ext": "mid_2772b.wav", "rpm": 2772, "minPitch": 0, "maxPitch": 1},
-            {"type": "mid","ext": "3660a.wav", "off": "4172c_off.wav", "rpm": 3660, "minPitch": 0, "maxPitch": 1},
-            {"type": "mid","ext": "5167a.wav", "off": "ext_4925off.wav", "rpm": 5167, "minPitch": 0, "maxPitch": 1},
-            {"type": "mid","ext": "5813a.wav", "off": "6402c_off.wav", "rpm": 5812, "minPitch": 0, "maxPitch": 1},
-            {"type": "max","ext": "7213c.wav", "off": "7104a_off.wav", "rpm": 7213, "minPitch": 0, "maxPitch": 1},
+            {"type": "idle", "ext": "ext_idle1036.wav", "rpm": 1036, "fromPitch": 1, "toPitch": 1, "fromVolume": 1, "toVolume": 0},
+            {"type": "mid","ext": "mid_2772b.wav", "rpm": 2772, "fromPitch": 0, "toPitch": 1, "fromVolume": 1, "toVolume": 0},
+            {"type": "mid","ext": "3660a.wav", "off": "4172c_off.wav", "rpm": 3660, "fromPitch": 0, "toPitch": 1, "fromVolume": 0, "toVolume": 1},
+            {"type": "mid","ext": "5167a.wav", "off": "ext_4925off.wav", "rpm": 5167, "fromPitch": 0, "toPitch": 1, "fromVolume": 0, "toVolume": 1},
+            {"type": "mid","ext": "5813a.wav", "off": "6402c_off.wav", "rpm": 5812, "fromPitch": 0, "toPitch": 1, "fromVolume": 0, "toVolume": 1},
+            {"type": "max","ext": "7213c.wav", "off": "7104a_off.wav", "rpm": 7213, "fromPitch": 0, "toPitch": 1, "fromVolume": 0, "toVolume": 1},
             {"type": "limiter", "ext": "limiter.wav"}
         ]
     }
