@@ -2,16 +2,6 @@
 	"version": 1,
 	"engine": {
 		"acceleration": [
-			["dec_1208_exh.wav", 1208],
-			["dec_2276_exh.wav", 2276],
-			["dec_2746_exh.wav", 2746],
-			["dec_3449_exh.wav", 3449],
-			["dec_4262_exh.wav", 4262],
-			["dec_5075_exh.wav", 5075],
-			["dec_5881_exh.wav", 5881],
-			["dec_6657_exh.wav", 6657]
-		],
-		"deceleration": [
 			["acc_1500_exh.wav", 1500],
 			["acc_2000_exh.wav", 2000],
 			["acc_2680_exh.wav", 2680],
@@ -21,6 +11,16 @@
 			["acc_6218_exh.wav", 6218],
 			["acc_6594_exh.wav", 6594],
 			["acc_6877_exh.wav", 6877]
+		],
+		"deceleration": [
+			["dec_1208_exh.wav", 1208],
+			["dec_2276_exh.wav", 2276],
+			["dec_2746_exh.wav", 2746],
+			["dec_3449_exh.wav", 3449],
+			["dec_4262_exh.wav", 4262],
+			["dec_5075_exh.wav", 5075],
+			["dec_5881_exh.wav", 5881],
+			["dec_6657_exh.wav", 6657]
 		]
 	}
 }
